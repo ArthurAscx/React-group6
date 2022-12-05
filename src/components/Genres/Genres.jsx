@@ -15,6 +15,9 @@ function Genres() {
       });
     },[])
     
+
+
+
   return (
     <div className="col-lg-6 mb-4">
       <div className="card shadow mb-4">
@@ -26,7 +29,7 @@ function Genres() {
         <div className="card-body fondoCaja">
           <div className="row">
             {genres.map((genre, index) => (
-              <GenreCard key={index + genre.name} genero={genre.name} />
+              <GenreCard key={index + genre.name} genero={genre.name} total={genre.total} />
             ))}
           </div>
         </div>

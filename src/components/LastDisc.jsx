@@ -48,7 +48,7 @@ function LastDisc() {
             Ventas Totales: {lastDisc.sales}
           </p>
           <a className="btn btn-danger" target="_blank" rel="nofollow" href="/">
-            View movie detail
+            View Disc detail
           </a>
         </div>
       </div>

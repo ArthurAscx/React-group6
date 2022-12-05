@@ -39,9 +39,9 @@ function DiscTable (){
           </tr>
         </thead>
         <tbody>
-          {discs.map((row) => {
+          {discs.map((row,i) => {
             return (
-              <tr key={row.title}>
+              <tr key={row.title+1}>
                 <td>{row.title}</td>
                 <td>{row.price}</td>
                 <td>{row.sales}</td>
